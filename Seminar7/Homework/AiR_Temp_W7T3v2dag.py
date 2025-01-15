@@ -54,7 +54,7 @@ schedule_interval='0 6 * * *')
 
 
 def run_airflow_script(**kwargs):
-    exec(open("/home/ritorta/HomeWork/W7/Task_3/AiR_W7T3.py").read())
+    exec(open("/home/AiR_W7T3.py").read())
 
 AiR_Home_7_3  = PythonOperator(
     task_id='Run_Work_7_3',
